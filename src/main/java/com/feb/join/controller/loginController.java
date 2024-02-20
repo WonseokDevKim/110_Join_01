@@ -7,6 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class loginController {
+	/**
+	 * 로그인(회원가입) 페이지 이동
+	 * 
+	 * @return ModelAndView login.jsp로 이동
+	 */
 	@GetMapping("/loginPage.do")
 	public ModelAndView loginPage() {
 		ModelAndView mv = new ModelAndView();
