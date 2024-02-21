@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class loginController {
+public class LoginController {
 	/**
 	 * 로그인(회원가입) 페이지 이동
 	 * 
